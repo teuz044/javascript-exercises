@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+.btn {
+    background-color: darksalmon;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: dimgrey;
+    cursor: pointer;
+}
+.nome {
+    margin-top: 15px;
+}
+.sobrenome {
+    margin-top: 15px;
+}
+.peso {
+    margin-top: 15px;
+}
+.altura {
+    margin-top: 15px;
+}
+input {
+    display: flex;
+    align-items: center;
+}
+
